@@ -16,6 +16,9 @@ include(${VTK_USE_FILE})
 
 add_executable(setvtkPoints setvtkPoints.cxx)
 add_executable(createvtkPoints createvtkPoints.cxx)
+add_executable(copyvtkPoints copyvtkPoints.cxx)
 
 target_link_libraries(setvtkPoints ${VTK_LIBRARIES})
 target_link_libraries(createvtkPoints ${VTK_LIBRARIES})
+target_link_libraries(copyvtkPoints ${VTK_LIBRARIES})
+
